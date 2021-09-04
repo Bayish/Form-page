@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <div class="header-top">
+                <a href="#"><img src="images/logo.png" alt="logo"></a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Фотографии</a></li>
+                    <li><a href="#">Конкурс</a></li>
+                </ul>
+            <nav>
+        </div>
+    </header>
+    <div class="container content">
+        <h1>Конкурс на путешествие с Пинк</h1>
+        <p class="description">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
+        <div class="form-block">
+            <form>
+                <div class="form-section-1">
+                    <div class="form-col-1">
+                        <div class="form-row">
+                            <label for="surName">Фамилия:</label>
+                            <input type="text" name="surName" id="surName"  placeholder="Укажите фамилию *" required autofocus>
+                        </div>
+                        <div class="form-row">
+                            <label for="name">Имя:</label>
+                            <input type="text" name="name" id="name"  placeholder="Введите ваше имя *" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="secondName">Отчество:</label>
+                            <input type="text" name="secondName" id="secondName" placeholder="Укажите ваше отчество">
+                        </div>
+                    </div>
+                    <div class="form-col-2">
+                        <fieldset>
+                            <legend>С каким приложением путешествовали?</legend>
+                            <div class="form-row">
+                                <input type="radio" name="app" value="iOS" id="appIOS" class="app-field">
+                            <label for="appIOS" class="label-app">Pink для iOS</label>
+                            </div>
+                            <div class="form-row">
+                                <input type="radio" name="app" value="iOS" id="appAndroid" class="app-field">
+                            <label for="appAndroid" class="label-app">Pink на Android</label>
+                            </div>
+                            <div class="form-row">
+                                <input type="radio" name="app" value="iOS" id="appWin" class="app-field">
+                            <label for="appWin" class="label-app">Windows Phone</label>
+                            </div>  
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="form-section-2">
+                    <fieldset>
+                        <legend>Контактная информация</legend>
+                        <div class="form-row first-row">
+                            <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Ваш номер телефона">
+                            <p><label for="phoneNumber">номер телефона</label></p>
+                        </div>
+                        <div class="form-row second-row">
+                            <input type="email" name="email" id="email" placeholder="Ваш email *" required>
+                            <p><label for="email">Адрес почты</label></p>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="form-section-3">
+                    <fieldset>
+                        <legend>Опишите свои эмоции</legend>
+                        <textarea name="" id="" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+                    </fieldset>
+                </div>
+                <div class="form-button">
+                    <button type="submit" class="main-btn">Отправить форму</button>
+                    <p><span>*</span> — обязательные для заполнения поля</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© Copyright  Name Studio</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,152 @@
+@media screen and (max-width: 700px) {
+    .container{
+        padding: 0 10px;
+    }
+    .main-nav li {
+        margin-left: 50px;
+    }   
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .form-col-1 {
+        width: 35%;
+    }
+
+    .form-col-1 input{
+        height: 100px;
+        padding-left: 0px;
+    }
+    .form-col-1 input::placeholder{
+        font-size: 16px;
+    }
+    .form-col-2 {
+        width: 35%;
+    }
+
+    .form-col-2 .label-app {
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .form-section-3 textarea{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 15px;
+    }
+    .content h1 {
+        font-size: 35px;
+    }
+    .mai-nav a {
+        font-size: 13px;
+    }
+
+    legend,
+    label{
+        font-size: 13px ;
+    }
+
+    .form-section-1 {
+        display: block;
+    }
+    .form-col-1 {
+        width: 100%;
+    }
+    .form-col-1 input {
+        width: 85%;
+    }
+    .form-col-1 input::placeholder{
+        font-size: 14px;
+    }
+
+    .form-section-2 {
+        height: auto;
+    }
+    .form-section-2 fieldset {
+        display: block;
+        height: 100%;
+    }
+    .form-section-2 .form-row {
+        margin-left: 60px;
+        width: 70%;
+    }
+    
+    
+}
+
+@media screen and (max-width:320px){
+    body {
+        font-size: 12px;
+    }
+    .content h1 {
+        font-size: 25px;
+    }
+    .mai-nav a {
+        font-size: 10px;
+    }
+    legend,
+    label{
+        font-size: 10px ;
+    }
+
+    .form-section-1 {
+        display: block;
+    }
+    .form-col-1 {
+        width: 100%;
+    }
+    
+    .form-col-1 input {
+        width: 85%;
+    }
+    .form-col-1 input::placeholder{
+        font-size: 13px;
+    }
+    .form-col-2 {
+        width: 100%;
+    }
+    .form-col-2 fieldset {
+        padding-left: 2px;
+        width: 80%;
+    }
+    .form-col-2 label {
+        font-size: 11px;
+        text-align: right;
+    }
+    
+    .form-section-2 {
+        height: auto;
+    }
+    .form-section-2 fieldset {
+        display: block;
+        height: 100%;
+    }
+    .form-section-2 .form-row {
+        margin-left: 15px;
+        width: 80%;
+    }
+
+    .form-section-3 textarea{
+        margin-left: 10px;
+    } 
+
+    .form-button {
+        display: block;
+    }
+
+    .form-button .main-btn {
+        padding: 10px;
+        margin-left: 30px;
+    }
+
+    .form-button p {
+        margin: 0 auto;
+    }
+
+    
+    
+}
